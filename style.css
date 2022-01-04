@@ -9,7 +9,7 @@ h1{
 h1 span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     padding: 30px;
 }
@@ -27,7 +27,7 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(salmon, tomato);
 }
 #hero{
     background-image: url("images/top-banner.png");
@@ -39,4 +39,33 @@ section{
     background-position: right;
     margin-top: 30px;
     padding-right: 100px;
+}
+.expert h3{
+    color: orange;
+}
+.expert{
+    box-shadow: 20px 20px 30px rgba(182, 182, 182, 0.609);
+    width: 40%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#jaker{
+    border-left: 8px  solid; 
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 2;
+}
+#baba{
+    border-left: 8px  solid; 
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2;
+}
+footer h6{
+    text-align:center;
+    font-size: 15px;
+    color: rgb(163, 157, 157);
 }
