@@ -11,6 +11,7 @@ h1 span{
 }
 section{
     display: flex;
+    padding: 30px;
 }
 .halfWidth{
     width: 50%;
@@ -31,4 +32,11 @@ section{
 #hero{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 30px;
+    padding-right: 100px;
 }
